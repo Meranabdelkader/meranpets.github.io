@@ -1,0 +1,285 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Roboto+Slab:300,400,700,800&display=swap');
+
+body {
+  position: relative;
+}
+
+h2{
+
+
+    font-family: 'Open Sans' , sans-serif ;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+   
+}
+h3{
+
+
+    font-family: 'Open Sans' , sans-serif ;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    font-weight: 300;
+}
+
+
+p{
+
+font-family: 'Roboto Slab', serif;
+font-size: 1.2em;
+font-weight: 300;
+
+}
+
+
+/* header */
+.nav-item{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    
+}
+
+#services img{
+	max-width: 80px;
+}
+
+
+.nn .navbar-brand{
+    background-image: url(../images/wisdompetlogo.svg);
+    background-repeat: no-repeat;
+    padding-left: 100px;
+    color: white;
+    font-size: 1.7em;
+    font-weight: 500;
+    font-family: 'Open Sans' ,sans-serif ;
+}
+.nn .navbar-brand:hover{ 
+    color:white;
+}
+    
+.subhead{
+    
+    display: block;
+    color:white;
+    font-weight: 300;
+    font-size: 0.7em;
+    font-family: 'Roboto Slab', serif;
+ 
+}
+
+/* end of header*/
+
+/*mission*/
+ 
+#mission{
+
+    min-height: 500px;
+    padding: 50px 0;
+    background-color: rgba(228,210,157,1);
+    background-image: linear-gradient(180deg,rgba(238,240,138,1) 0% , rgba(129,154,45,1)100% );
+    border-top: 20px solid rgba(238,200,68,0.5);
+}
+
+/*end of mission*/
+
+/*services*/
+#services{
+ padding-top: 30px;
+    border-top: 20px solid rgba(238,200,68,0.5);
+  
+}
+
+/*end of services*/
+
+article{
+ 
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+
+
+/*staff*/
+
+#staff{
+    
+        background-color: rgba(228,210,157,1);    
+        background-image: linear-gradient(180deg,rgba(228,210,157,1) 0% , rgba(205,174,80,1)100% );
+        padding: 40px 0 50px 0;
+}
+
+
+
+#staff img{
+    max-width: 100%;
+  
+    
+}
+
+#staff h3{
+    text-align: left;
+    color:rgba(120,0,0,1);
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+   
+}
+
+
+/*end of staff*/
+
+
+
+/*testimonials*/
+
+#testimonials h2{
+    
+    display: none;
+}
+.customer{
+    
+    display: none;
+}
+
+#janeh{
+    background-image: url(../images/testimonial-janeh.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0;
+    min-height: 500px;
+
+}
+#mcphersons{
+    background-image: url(../images/testimonial-mcphersons.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0;
+    min-height: 500px;
+
+}
+#johnb{
+    background-image: url(../images/testimonial-johnb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0;
+    min-height: 500px;
+
+}
+#lorraines{
+    background-image: url(../images/testimonial-lorraines.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0;
+    min-height: 500px;
+
+}
+.quote{
+    
+    background-image: linear-gradient(180deg,rgba(255,255,255,0.6) 0% , rgba(255,255,255,1.0)100% );
+    width: 70%;
+    border-top-right-radius: 30px;;
+    padding-top: 30px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    font-family: 'Open Sans' , sans-serif ;
+    padding-left: 2%;
+    padding-bottom: 30px;
+    min-height: 130px;
+    
+    
+
+}
+
+
+
+
+ .intro{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3em;
+    line-height: 1%;
+
+}
+
+.intro::after{
+
+    content: "...";
+
+
+}
+
+.quote:hover .intro::after{
+    
+    
+    content: "";
+
+
+
+}
+
+.more{
+    
+        font-family: 'Open Sans' , sans-serif ;
+        font-size: 0em;
+        display:block;
+        opacity: 0;
+    
+    
+}
+
+.quote:hover {
+    
+    background-color: rgba(255,255,200,0.6);
+ 
+}
+.quote:hover .more{
+ 
+    opacity: 1;
+    font-size: 1em;
+
+
+}
+
+
+/* end of testimonials*/
+
+
+
+/*footer*/
+
+
+footer{
+    
+    background-color: rgba(0,100,100,1);   
+    color: white;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    padding-left: 5%;
+    padding-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    
+    
+}
+.phone{
+    
+    color: rgba(235,235,150,1);
+    font-weight: 600;
+    font-size: 1.4em;
+    
+}
+
+footer p{
+
+}
+
